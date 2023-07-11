@@ -36,6 +36,11 @@ margin: 32px 0px;
   cursor: pointer;
   border: 0px;
 }
+.common-btn:hover{
+  color: #E55473;
+  background-color: white;
+  border: 1px solid #E55473;
+}
 .pink{
   color: #E55473;
 }
