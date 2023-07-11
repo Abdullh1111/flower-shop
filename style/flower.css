@@ -134,5 +134,32 @@ margin: 25px 0px 50px;
 .insta-imgs{
   display: flex;
   gap: 24px;
-  margin-bottom: 130px;
+}
+.insta-img{
+  height: 400px;
+  width: 325px;
+}
+/* get section */
+.get-container{
+  background-image: url("../Flower\ Asset/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 125px 0px;
+  margin: 130px 0px;
+}
+.get-text{
+  color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+margin: 25px 0px 50px;
+}
+.get-in{
+  color: rgba(39, 39, 39, 0.60);
+font-size: 16px;
+font-weight: 400;
+border-radius: 8px;
+background-color: #FFF;
+padding: 22px 520px 22px 22px;
+border: 0px;
+margin-right: 16px;
 }
