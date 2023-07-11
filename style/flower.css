@@ -36,7 +36,7 @@ margin: 32px 0px;
   cursor: pointer;
   border: 0px;
 }
-main{
+section{
   text-align: center;
   max-width: 1920px;
   margin: 0px 240px;
@@ -57,7 +57,7 @@ margin-bottom: 50px;
 /* img section */
 .img-container{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 25px;
   align-items: flex-end;
 }
@@ -69,17 +69,33 @@ text-decoration: underline;
 margin-top: 32px;
 }
 .img-6{
-  padding: 110px 78px 0px;
+  padding: 100px 70px 0px;
   background-color: rgba(167, 33, 98, 0.15);
   border-radius: 300px 300px 0px 0px;
 }
 .img-5{
-  padding: 117px 47px 50px;
+  padding: 110px 40px 50px;
   background-color: rgba(5, 151, 160, 0.15);
   border-radius: 300px 300px 0px 0px;
 }
 .img-7{
-  padding: 67px 75px 0px;
+  padding: 60px 65px 0px;
   background-color: rgba(71, 125, 17, 0.15);
   border-radius: 300px 300px 0px 0px;
 }
+/* support section */
+.support-container{
+  display: flex;
+  margin: 130px auto;
+  /* margin-right: ; */
+  justify-content: space-between;
+  padding: 85px 175px;
+  background-color: rgba(39, 39, 39, 0.05);
+  gap: 50px;
+}
+.support-text{
+  color: rgba(39, 39, 39, 0.80);
+  font-size: 20px;
+  font-weight: 500;
+}
+/* deal section */
