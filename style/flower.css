@@ -109,6 +109,7 @@ justify-content: center;
 gap: 190px;
 background-color: rgba(229, 84, 115, 0.05);
 text-align: center;
+margin-bottom: 180px;
 }
 .deal-tittle{
   color: #272727;
@@ -123,4 +124,10 @@ margin: 24px 0px 32px;
 }
 .deal-img{
   padding: 100px 0px;
+}
+.insta-text{
+  color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+margin: 25px 0px 50px;
 }
