@@ -36,6 +36,9 @@ margin: 32px 0px;
   cursor: pointer;
   border: 0px;
 }
+.pink{
+  color: #E55473;
+}
 section{
   text-align: center;
   max-width: 1920px;
@@ -99,3 +102,25 @@ margin-top: 32px;
   font-weight: 500;
 }
 /* deal section */
+.deal-container{
+  display: flex;
+ align-items: center;
+justify-content: center;
+gap: 190px;
+background-color: rgba(229, 84, 115, 0.05);
+text-align: center;
+}
+.deal-tittle{
+  color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+.deal-text{
+  color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+margin: 24px 0px 32px;
+}
+.deal-img{
+  padding: 100px 0px;
+}
