@@ -25,6 +25,7 @@ font-size: 18px;
 font-weight: 400;
 margin: 32px 0px;
 }
+/* common style */
 .common-btn{
   color: #FFF;
   font-size: 20px;
@@ -33,9 +34,11 @@ margin: 32px 0px;
   background-color: #E55473;
   padding: 20px 43px;
   cursor: pointer;
+  border: 0px;
 }
-section{
+main{
   text-align: center;
+  max-width: 1920px;
   margin: 0px 240px;
 }
 .feature-tittle{
@@ -49,4 +52,9 @@ section{
 font-size: 18px;
 font-weight: 400;
 margin-bottom: 50px;
+}
+.img-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
