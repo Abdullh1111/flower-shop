@@ -90,7 +90,6 @@ margin-top: 32px;
 .support-container{
   display: flex;
   margin: 130px auto;
-  /* margin-right: ; */
   justify-content: space-between;
   padding: 85px 175px;
   background-color: rgba(39, 39, 39, 0.05);
@@ -125,9 +124,15 @@ margin: 24px 0px 32px;
 .deal-img{
   padding: 100px 0px;
 }
+/* insta section */
 .insta-text{
   color: rgba(39, 39, 39, 0.60);
 font-size: 18px;
 font-weight: 400;
 margin: 25px 0px 50px;
+}
+.insta-imgs{
+  display: flex;
+  gap: 24px;
+  margin-bottom: 130px;
 }
